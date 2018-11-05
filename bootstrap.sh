@@ -38,18 +38,3 @@ apt-get install -y mysql-server
 
 # Restart Apache
 sudo service apache2 restart
-
-#setup versioning
-cd /var/www/html
-
-git init
-
-git add .
-
-git reset .vagrant/
-
-git remote add origin git@github.com:cmcgough/newrelictest.git
-
-git commit -m "First commit"
-
-git push -u origin master
