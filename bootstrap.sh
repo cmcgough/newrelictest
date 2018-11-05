@@ -38,5 +38,3 @@ apt-get install -y mysql-server
 
 # Restart Apache
 sudo service apache2 restart
-
-testtesttesttest
